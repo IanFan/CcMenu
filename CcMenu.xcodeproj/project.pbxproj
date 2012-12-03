@@ -131,8 +131,16 @@
 		182DB208166CAFCC005B4E4C /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 182DB207166CAFCC005B4E4C /* vec4.c */; };
 		182DB20D166CAFCC005B4E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB20C166CAFCC005B4E4C /* main.m */; };
 		182DB210166CAFCC005B4E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB20F166CAFCC005B4E4C /* AppDelegate.m */; };
-		182DB213166CAFCC005B4E4C /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB212166CAFCC005B4E4C /* HelloWorldLayer.m */; };
-		182DB216166CAFCC005B4E4C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB215166CAFCC005B4E4C /* IntroLayer.m */; };
+		182DB229166CB09C005B4E4C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB226166CB09C005B4E4C /* IntroLayer.m */; };
+		182DB22A166CB09C005B4E4C /* MenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB228166CB09C005B4E4C /* MenuLayer.m */; };
+		182DB22D166CB0A3005B4E4C /* Cocos2dTemplateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB22C166CB0A3005B4E4C /* Cocos2dTemplateLayer.m */; };
+		182DB235166CB0CB005B4E4C /* square_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB22F166CB0CB005B4E4C /* square_dark.png */; };
+		182DB236166CB0CB005B4E4C /* square_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB230166CB0CB005B4E4C /* square_selected.png */; };
+		182DB237166CB0CB005B4E4C /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB231166CB0CB005B4E4C /* square.png */; };
+		182DB238166CB0CB005B4E4C /* square_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB232166CB0CB005B4E4C /* square_dark@2x.png */; };
+		182DB239166CB0CB005B4E4C /* square_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB233166CB0CB005B4E4C /* square_selected@2x.png */; };
+		182DB23A166CB0CB005B4E4C /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB234166CB0CB005B4E4C /* square@2x.png */; };
+		182DB23F166CB109005B4E4C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB23E166CB109005B4E4C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +402,19 @@
 		182DB20C166CAFCC005B4E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		182DB20E166CAFCC005B4E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		182DB20F166CAFCC005B4E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		182DB211166CAFCC005B4E4C /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		182DB212166CAFCC005B4E4C /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		182DB214166CAFCC005B4E4C /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		182DB215166CAFCC005B4E4C /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		182DB225166CB09C005B4E4C /* IntroLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
+		182DB226166CB09C005B4E4C /* IntroLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		182DB227166CB09C005B4E4C /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		182DB228166CB09C005B4E4C /* MenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLayer.m; sourceTree = "<group>"; };
+		182DB22B166CB0A3005B4E4C /* Cocos2dTemplateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dTemplateLayer.h; sourceTree = "<group>"; };
+		182DB22C166CB0A3005B4E4C /* Cocos2dTemplateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cocos2dTemplateLayer.m; sourceTree = "<group>"; };
+		182DB22F166CB0CB005B4E4C /* square_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_dark.png; sourceTree = "<group>"; };
+		182DB230166CB0CB005B4E4C /* square_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_selected.png; sourceTree = "<group>"; };
+		182DB231166CB0CB005B4E4C /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		182DB232166CB0CB005B4E4C /* square_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square_dark@2x.png"; sourceTree = "<group>"; };
+		182DB233166CB0CB005B4E4C /* square_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square_selected@2x.png"; sourceTree = "<group>"; };
+		182DB234166CB0CB005B4E4C /* square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square@2x.png"; sourceTree = "<group>"; };
+		182DB23E166CB109005B4E4C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +475,12 @@
 			children = (
 				182DB20E166CAFCC005B4E4C /* AppDelegate.h */,
 				182DB20F166CAFCC005B4E4C /* AppDelegate.m */,
-				182DB211166CAFCC005B4E4C /* HelloWorldLayer.h */,
-				182DB212166CAFCC005B4E4C /* HelloWorldLayer.m */,
-				182DB214166CAFCC005B4E4C /* IntroLayer.h */,
-				182DB215166CAFCC005B4E4C /* IntroLayer.m */,
+				182DB225166CB09C005B4E4C /* IntroLayer.h */,
+				182DB226166CB09C005B4E4C /* IntroLayer.m */,
+				182DB227166CB09C005B4E4C /* MenuLayer.h */,
+				182DB228166CB09C005B4E4C /* MenuLayer.m */,
+				182DB22E166CB0A7005B4E4C /* Support */,
+				182DB23B166CB0CF005B4E4C /* MyResources */,
 				182DB097166CAFC4005B4E4C /* Resources */,
 				182DB0B1166CAFC5005B4E4C /* libs */,
 				182DB20A166CAFCC005B4E4C /* Supporting Files */,
@@ -472,6 +491,7 @@
 		182DB097166CAFC4005B4E4C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				182DB23E166CB109005B4E4C /* Default-568h@2x.png */,
 				182DB098166CAFC4005B4E4C /* Default.png */,
 				182DB09A166CAFC4005B4E4C /* Default-Landscape~ipad.png */,
 				182DB09C166CAFC4005B4E4C /* fps_images.png */,
@@ -832,6 +852,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		182DB22E166CB0A7005B4E4C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				182DB22B166CB0A3005B4E4C /* Cocos2dTemplateLayer.h */,
+				182DB22C166CB0A3005B4E4C /* Cocos2dTemplateLayer.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		182DB23B166CB0CF005B4E4C /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+				182DB23C166CB0D9005B4E4C /* Image */,
+				182DB23D166CB0E9005B4E4C /* Image@2x */,
+			);
+			name = MyResources;
+			sourceTree = "<group>";
+		};
+		182DB23C166CB0D9005B4E4C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				182DB22F166CB0CB005B4E4C /* square_dark.png */,
+				182DB230166CB0CB005B4E4C /* square_selected.png */,
+				182DB231166CB0CB005B4E4C /* square.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		182DB23D166CB0E9005B4E4C /* Image@2x */ = {
+			isa = PBXGroup;
+			children = (
+				182DB232166CB0CB005B4E4C /* square_dark@2x.png */,
+				182DB233166CB0CB005B4E4C /* square_selected@2x.png */,
+				182DB234166CB0CB005B4E4C /* square@2x.png */,
+			);
+			name = "Image@2x";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +953,13 @@
 				182DB0AD166CAFC5005B4E4C /* Icon@2x.png in Resources */,
 				182DB0B0166CAFC5005B4E4C /* iTunesArtwork in Resources */,
 				182DB1EE166CAFCC005B4E4C /* ChangeLog in Resources */,
+				182DB235166CB0CB005B4E4C /* square_dark.png in Resources */,
+				182DB236166CB0CB005B4E4C /* square_selected.png in Resources */,
+				182DB237166CB0CB005B4E4C /* square.png in Resources */,
+				182DB238166CB0CB005B4E4C /* square_dark@2x.png in Resources */,
+				182DB239166CB0CB005B4E4C /* square_selected@2x.png in Resources */,
+				182DB23A166CB0CB005B4E4C /* square@2x.png in Resources */,
+				182DB23F166CB109005B4E4C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1072,9 @@
 				182DB208166CAFCC005B4E4C /* vec4.c in Sources */,
 				182DB20D166CAFCC005B4E4C /* main.m in Sources */,
 				182DB210166CAFCC005B4E4C /* AppDelegate.m in Sources */,
-				182DB213166CAFCC005B4E4C /* HelloWorldLayer.m in Sources */,
-				182DB216166CAFCC005B4E4C /* IntroLayer.m in Sources */,
+				182DB229166CB09C005B4E4C /* IntroLayer.m in Sources */,
+				182DB22A166CB09C005B4E4C /* MenuLayer.m in Sources */,
+				182DB22D166CB0A3005B4E4C /* Cocos2dTemplateLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1178,7 @@
 				182DB21B166CAFCC005B4E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
