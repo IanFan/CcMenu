@@ -86,14 +86,14 @@
 /*
 Target: Set CCMenu to contain many types of  CCMenuItem, tap one of the items to trigger a specific function.
 
-1. Create CCMenuItem, including
+1. Set many types of CCMenuItem, including
 CCMenuItemImage,
 CCMenuItemSprite,
 CCMenuItemFont,
 CCMenuItemLabel,
 CCMenuItemToggle with CCMenuItemFont, CCMenuItemToggle with CCMenuItemImage
 
-2. Create CCMenu to contain these CCMenuItem
+2. Set the CCMenu to contain these CCMenuItem
 */
 
 -(id)init {
